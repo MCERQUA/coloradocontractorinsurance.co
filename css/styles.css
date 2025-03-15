@@ -1,0 +1,97 @@
+/* Main Styles for Colorado Contractor Insurance Website */
+
+/* Custom Colors */
+.custom-blue {
+    background-color: #1E4D8C;
+}
+
+.custom-blue-text {
+    color: #1E4D8C;
+}
+
+.custom-green {
+    background-color: #3C723C;
+}
+
+.custom-gold {
+    background-color: #FFCB05;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1200x600/?colorado,mountains');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/* Card Hover Effects */
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Page Header for Interior Pages */
+.page-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1200x400/?colorado,construction');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #1E4D8C;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #15366A;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #1E4D8C;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #F5F5F5;
+}
+
+/* Form Styles */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    ring: 2px;
+    ring-color: #1E4D8C;
+}
+
+/* Testimonial Styles */
+.testimonial {
+    transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 400px;
+    }
+    
+    .page-header {
+        height: 200px;
+    }
+}
